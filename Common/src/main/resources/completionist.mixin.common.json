@@ -1,0 +1,16 @@
+{
+	"compatibilityLevel": "JAVA_8",
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"minVersion": "0.8",
+	"mixins": [
+		"PlayerAdvancementsMixin",
+		"ServerAdvancementManagerAccessor"
+	],
+	"client": [
+		
+	],
+	"package": "agency.highlysuspect.completionist.mixin",
+	"required": true
+}

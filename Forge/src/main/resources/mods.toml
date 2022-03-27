@@ -1,0 +1,16 @@
+modLoader = "javafml"
+loaderVersion = "[39,)"
+license = "LGPL-3.0-or-later"
+
+[[mods]]
+modId = "completionist"
+version = "${version}"
+displayName = "Completionist"
+description = "Displays your advancement completion percentage."
+authors = "quaternary"
+credits = "Ur mom"
+
+[[dependencies.completionist]]
+modId="forge"
+mandatory=true
+versionRange="[36.0.0,)"

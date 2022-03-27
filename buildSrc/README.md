@@ -1,0 +1,1 @@
+This buildSrc is pretty much lifted directly from [Incorporeal 3's buildSrc](https://github.com/quat1024/incorporeal-3), I guess this is the smoke test to see if it's really as reusable as I thought.
