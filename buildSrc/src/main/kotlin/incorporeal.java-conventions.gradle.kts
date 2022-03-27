@@ -55,7 +55,7 @@ tasks.jar {
 //Not sure if this is needed, given the toolchain block above. Doesn't hurt?
 tasks.withType<JavaCompile>().configureEach { 
     options.encoding = "UTF-8"
-    options.release.set(8) //FUCKING EXPLODES on java 8. Holy Shit. Do not set this when using real java 8 JDKs EVER
+    //options.release.set(8) //FUCKING EXPLODES on java 8. Holy Shit. Do not set this when using real java 8 JDKs EVER
 }
 
 //I *believe* that the purpose of this bit is because projects like Loom and FG use a lot of magic (that you're
